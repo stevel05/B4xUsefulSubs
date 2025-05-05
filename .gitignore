@@ -1,0 +1,10 @@
+**/Objects
+**/AutoBackups
+**/ModuleArchive
+**/NoteTaker
+**/PONotes
+*.meta
+*.zip
+*.mp4
+Mainfest.txt
+aaaIDElinks.bas
