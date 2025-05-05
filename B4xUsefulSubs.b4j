@@ -9,11 +9,12 @@ Library3=jxui
 Library4=javaobject
 Module1=|absolute|D:\AnywhereSoftware\B4j\aaaIDELinks\aaaIDElinks
 Module2=Log_Utils
-Module3=Strings
-Module4=TitleBar
+Module3=ProperCase
+Module4=Strings
+Module5=TitleBar
 NumberOfFiles=1
 NumberOfLibraries=4
-NumberOfModules=4
+NumberOfModules=5
 Version=10.2
 @EndOfDesignText@
 #Region Project Attributes 

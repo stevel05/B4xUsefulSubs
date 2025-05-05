@@ -15,3 +15,4 @@ Public Sub StringJoin(Delim As String, Source As Object) As String
 	Str.InitializeNewInstance("java.lang.String",Null)
 	Return Str.RunMethod("join",Array(Delim, Source))
 End Sub
+
