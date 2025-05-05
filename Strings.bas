@@ -16,3 +16,13 @@ Public Sub StringJoin(Delim As String, Source As Object) As String
 	Return Str.RunMethod("join",Array(Delim, Source))
 End Sub
 
+Public Sub ToProperCase(Str As String) As String
+	Dim SB As StringBuilder
+	SB.Initialize
+	
+	For Each Word As String In Regex.Split(" ",Str)
+		SB.Append(" ")
+		SB.Append(Word.CharAt(0).As(String).ToUpperCase & Word.SubString(1).ToLowerCase)
+	Next
+	Return SB.ToString.SubString(1)
+End Sub
