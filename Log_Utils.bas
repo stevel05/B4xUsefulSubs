@@ -9,6 +9,7 @@ Sub Process_Globals
 
 End Sub
 
+'B4a / B4j
 Public Sub GetStringCharNames(Str As String) As String
 	Return GetStringCharNames2(Str,"")
 End Sub
@@ -53,6 +54,9 @@ Public Sub GetCharName(C As Char) As String
 	Return Name
 End Sub
 
+
+
+
 Public Sub Top(S As String, Lines As Int) As String
 	Return TopHeader(S, Lines, "")
 End Sub
@@ -72,6 +76,8 @@ Public Sub TopHeader(S As String, Lines As Int, Header As String) As String
 	Return Sb.ToString
 End Sub
 
+
+'B4a / B4j
 Public Sub GetStackTrace(FromSubName As String,Limit As Int) As String
 	Dim StackTrace() As Object
 	Dim Throwable As JavaObject

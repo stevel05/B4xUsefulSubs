@@ -21,6 +21,7 @@ Public Sub StringCount(StringToSearch As String,TargetStr As String,IgnoreCase A
 
 End Sub
 
+'B4a / B4j
 'Joins an array or list of strings with Delimeters in between
 Public Sub StringJoin(Delim As String, Source As Object) As String
 	Dim Str As JavaObject
@@ -28,6 +29,7 @@ Public Sub StringJoin(Delim As String, Source As Object) As String
 	Return Str.RunMethod("join",Array(Delim, Source))
 End Sub
 
+'B4a / B4j
 'Capitalize first character of each Space separated word
 Public Sub ToProperCase(Str As String) As String
 	Dim SB As StringBuilder
